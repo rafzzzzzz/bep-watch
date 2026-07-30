@@ -1,0 +1,70 @@
+{
+  "SearchTerms": [
+    "engenharia informatica",
+    "engenharia informática",
+    "tecnico sistemas informaticos",
+    "técnico sistemas informáticos",
+    "sistemas informaticos",
+    "sistemas informáticos",
+    "tecnologias de informação",
+    "tecnologias de informacao",
+    "sistemas e tecnologias de informação",
+    "sistemas e tecnologias de informacao",
+    "especialista de sistemas"
+  ],
+  "IncludeTerms": [
+    "informatica",
+    "informática",
+    "sistemas informaticos",
+    "sistemas informáticos",
+    "engenharia informatica",
+    "engenharia informática",
+    "tecnologias de informação",
+    "tecnologias de informacao",
+    "sistemas e tecnologias de informação",
+    "sistemas e tecnologias de informacao",
+    "especialista de sistemas",
+    "cnaef 481"
+  ],
+  "ExcludeTerms": [],
+  "TimeoutSeconds": 30,
+  "DelayBetweenSearchesMs": 750,
+  "DetailCodOfertaStart": 151400,
+  "DetailCodOfertaEnd": 160000,
+  "DetailCodOfertaMaxRequests": 800,
+  "DistrictPriority": [
+    "Viseu",
+    "Guarda",
+    "Aveiro",
+    "Coimbra",
+    "Vila Real",
+    "Castelo Branco",
+    "Porto",
+    "Braga",
+    "Viana do Castelo",
+    "Leiria",
+    "Santarém",
+    "Portalegre",
+    "Lisboa",
+    "Setúbal",
+    "Évora",
+    "Beja",
+    "Faro",
+    "RAA",
+    "RAM"
+  ],
+  "StatePath": "",
+  "Email": {
+    "SmtpHost": "smtp.gmail.com",
+    "SmtpPort": 587,
+    "EnableSsl": true,
+    "Username": "sender@example.com",
+    "PasswordEnv": "BEP_SMTP_PASSWORD",
+    "Password": "",
+    "SubjectPrefix": "[BEP] Engenharia informatica",
+    "From": "sender@example.com",
+    "To": [
+      "recipient@example.com"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "SearchTerms": [
+    "comunicação multimédia",
+    "comunicacao multimedia",
+    "multimédia",
+    "multimedia",
+    "web design",
+    "design",
+    "audiovisual",
+    "vídeo",
+    "video",
+    "imagem",
+    "comunicação"
+  ],
+  "IncludeTerms": [
+    "comunicação",
+    "comunicacao",
+    "multimédia",
+    "multimedia",
+    "web",
+    "design",
+    "audiovisual",
+    "vídeo",
+    "video",
+    "imagem",
+    "fotografia"
+  ],
+  "ExcludeTerms": [
+    "doutoramento",
+    "doutorado",
+    "professor auxiliar",
+    "professor adjunto",
+    "diretor",
+    "direcção",
+    "direção",
+    "assistente operacional"
+  ],
+  "TimeoutSeconds": 30,
+  "DelayBetweenSearchesMs": 750,
+  "DetailCodOfertaStart": 151400,
+  "DetailCodOfertaEnd": 160000,
+  "DetailCodOfertaMaxRequests": 800,
+  "DistrictPriority": [
+    "Viseu",
+    "Guarda",
+    "Aveiro",
+    "Coimbra",
+    "Vila Real",
+    "Castelo Branco",
+    "Porto",
+    "Braga",
+    "Viana do Castelo",
+    "Leiria",
+    "Santarém",
+    "Portalegre",
+    "Lisboa",
+    "Setúbal",
+    "Évora",
+    "Beja",
+    "Faro",
+    "RAA",
+    "RAM"
+  ],
+  "StatePath": "",
+  "Email": {
+    "SmtpHost": "smtp.gmail.com",
+    "SmtpPort": 587,
+    "EnableSsl": true,
+    "Username": "sender@example.com",
+    "PasswordEnv": "BEP_SMTP_PASSWORD",
+    "Password": "",
+    "SubjectPrefix": "[BEP] Comunicacao, design e multimedia",
+    "From": "sender@example.com",
+    "To": [
+      "recipient@example.com"
+    ]
+  }
+}

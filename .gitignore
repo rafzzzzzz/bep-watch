@@ -1,0 +1,11 @@
+config.json
+config-*.json
+!config.example.json
+!examples/*.example.json
+*.state.json
+bep-state*.json
+*.log
+*.tmp
+.env
+run-*.cmd
+work/

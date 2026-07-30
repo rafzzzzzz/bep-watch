@@ -1,0 +1,10 @@
+[Unit]
+Description=BEP Watch
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/bep-watch
+ExecStart=/usr/bin/pwsh -NoProfile -ExecutionPolicy Bypass -File %h/bep-watch/bep-watch.ps1 -ConfigPath %h/bep-watch/config.json
+Environment=BEP_SMTP_PASSWORD=replace-with-your-app-password
